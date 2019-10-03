@@ -1,12 +1,12 @@
 <html>
-  <head>
-    <title>Eda Frontend 3.0</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-  </head>
-
-  <body>
+<head>
+  <title>Eda Frontend 3.0</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  <header>
     <div class="row">
       <nav>
         <ul>
@@ -31,52 +31,49 @@
         </ul>
       </nav>
     </div>
-    <div class="custom-row">
-      <div class="custom-col custom-col-8">
-        <div class="form__container">
-          <form action='javascript:void(0);' name="myForm" id='myForm'>
-            <div class="form-group" id="nombre-group">
-              <label for="nombre">Nombre</label>
-              <input type="text" class="form-control" name="nombre" id="nombre" required>
-            </div>
-            ​
-            <div class="form-group" id="apellido-group">
-              <label for="apellido">Apellido</label>
-              <input type="text" class="form-control" name="apellido" id="apellido" required>
-            </div>
-            ​
-            <div class="form-group" id="usuario-group">
-              <label for="usuario">Usuario</label>
-              <input type="text" class="form-control" name="usuario" id="usuario" required>
-            </div>
-            ​
-            <div class="form-group" id="password-group">
-              <label for="usuario">Contraseña</label>
-              <input type="hiddden" class="form-control" name="password" id="password" required>
-            </div>
+  </header>
+  <div class="custom-row">
+    <div class="custom-col custom-col-8">
+      <div class="form__container">
+        <form action='javascript:void(0);' name="myForm" id='myForm'>
+          <div class="form-group" id="nombre-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name="nombre" id="nombre" required>
+          </div>
+          <div class="form-group" id="apellido-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" name="apellido" id="apellido" required>
+          </div>
+          <div class="form-group" id="usuario-group">
+            <label for="usuario">Usuario</label>
+            <input type="text" class="form-control" name="usuario" id="usuario" required>
+          </div>
+          <div class="form-group" id="password-group">
+            <label for="usuario">Contraseña</label>
+            <input type="hiddden" class="form-control" name="password" id="password" required>
+          </div>
+          <div class="form-group terms-and-conditions">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus condimentum ultrices. Donec non viverra felis. Nulla sit amet felis eget lectus gravida ullamcorper. Proin ante purus, malesuada eget dictum ut, tincidunt non nisi. Aliquam erat volutpat. Nullam tristique magna at semper imperdiet. Etiam eget nisl id orci bibendum finibus eget ac lorem. Aenean id venenatis diam. Sed placerat arcu ac elit porta convallis. Aenean mauris ex, porttitor a efficitur at, hendrerit sodales lectus. Aenean vitae quam fermentum, cursus ligula sed, consequat dolor. Etiam facilisis sodales libero. Aliquam erat volutpat. Nullam leo velit, rhoncus nec orci ac, eleifend volutpat nunc.
 
-            <div class="form-group terms-and-conditions">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tempus condimentum ultrices. Donec non viverra felis. Nulla sit amet felis eget lectus gravida ullamcorper. Proin ante purus, malesuada eget dictum ut, tincidunt non nisi. Aliquam erat volutpat. Nullam tristique magna at semper imperdiet. Etiam eget nisl id orci bibendum finibus eget ac lorem. Aenean id venenatis diam. Sed placerat arcu ac elit porta convallis. Aenean mauris ex, porttitor a efficitur at, hendrerit sodales lectus. Aenean vitae quam fermentum, cursus ligula sed, consequat dolor. Etiam facilisis sodales libero. Aliquam erat volutpat. Nullam leo velit, rhoncus nec orci ac, eleifend volutpat nunc.
+            Nam aliquet purus tellus, eget vestibulum libero aliquam quis. Duis scelerisque a velit finibus pulvinar. Fusce tincidunt euismod eros sed elementum. Sed imperdiet est nec ante vestibulum faucibus. Mauris convallis id est id suscipit. Cras vel congue nisl. Vivamus magna tortor, viverra ac est sed, congue iaculis odio. Vivamus a viverra urna. Morbi tincidunt congue ligula, vel commodo felis tincidunt nec. Sed eleifend arcu turpis, a ornare massa vestibulum at. Morbi ultrices, ex non tincidunt ultricies, elit nibh lobortis elit, eget luctus eros neque congue magna. Integer vitae semper urna, id sagittis turpis. Nunc vel dui metus.
 
-              Nam aliquet purus tellus, eget vestibulum libero aliquam quis. Duis scelerisque a velit finibus pulvinar. Fusce tincidunt euismod eros sed elementum. Sed imperdiet est nec ante vestibulum faucibus. Mauris convallis id est id suscipit. Cras vel congue nisl. Vivamus magna tortor, viverra ac est sed, congue iaculis odio. Vivamus a viverra urna. Morbi tincidunt congue ligula, vel commodo felis tincidunt nec. Sed eleifend arcu turpis, a ornare massa vestibulum at. Morbi ultrices, ex non tincidunt ultricies, elit nibh lobortis elit, eget luctus eros neque congue magna. Integer vitae semper urna, id sagittis turpis. Nunc vel dui metus.
+            Mauris fermentum iaculis metus non hendrerit. Nam tempus tempor scelerisque. Fusce semper sem in odio vehicula, sit amet blandit nisl suscipit. Quisque eu eros viverra, pretium nisl vitae, tincidunt nulla. Duis volutpat leo quis sapien dictum finibus. Praesent semper maximus ante, at venenatis ex eleifend vitae. Mauris ipsum lacus, vehicula nec blandit vitae, vehicula et ligula. Sed leo leo, dictum id pretium at, luctus vitae turpis. Aenean accumsan ipsum in leo ultrices pretium. Aliquam a dapibus ligula. Donec sed ante sem.
 
-              Mauris fermentum iaculis metus non hendrerit. Nam tempus tempor scelerisque. Fusce semper sem in odio vehicula, sit amet blandit nisl suscipit. Quisque eu eros viverra, pretium nisl vitae, tincidunt nulla. Duis volutpat leo quis sapien dictum finibus. Praesent semper maximus ante, at venenatis ex eleifend vitae. Mauris ipsum lacus, vehicula nec blandit vitae, vehicula et ligula. Sed leo leo, dictum id pretium at, luctus vitae turpis. Aenean accumsan ipsum in leo ultrices pretium. Aliquam a dapibus ligula. Donec sed ante sem.
+            Nunc non velit nec turpis sagittis pulvinar. Ut pharetra condimentum neque ac finibus. Nullam tempus auctor dolor, id gravida diam luctus vitae. Proin a bibendum elit. Morbi eget arcu non dolor faucibus scelerisque. Sed pharetra rhoncus congue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ut ex gravida, rutrum massa ut, hendrerit lectus.
 
-              Nunc non velit nec turpis sagittis pulvinar. Ut pharetra condimentum neque ac finibus. Nullam tempus auctor dolor, id gravida diam luctus vitae. Proin a bibendum elit. Morbi eget arcu non dolor faucibus scelerisque. Sed pharetra rhoncus congue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ut ex gravida, rutrum massa ut, hendrerit lectus.
+            Donec non eros tristique, bibendum nunc a, finibus dui. Suspendisse non elit libero. Aliquam auctor fringilla interdum. Cras mollis suscipit tortor ut pellentesque. Integer rutrum neque vitae enim congue mollis. Phasellus id viverra nibh, et ullamcorper lacus. Ut in fermentum risus. In hac habitasse platea dictumst. Phasellus vestibulum sapien ac ipsum aliquet, tempus sodales turpis congue. Etiam lacus augue, feugiat a fermentum non, lobortis eu neque.
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" onClick="onSubmit()">Guardar</button>
+            <button type="reset" class="btn btn-primary">Reset</button>
+          </div>
 
-              Donec non eros tristique, bibendum nunc a, finibus dui. Suspendisse non elit libero. Aliquam auctor fringilla interdum. Cras mollis suscipit tortor ut pellentesque. Integer rutrum neque vitae enim congue mollis. Phasellus id viverra nibh, et ullamcorper lacus. Ut in fermentum risus. In hac habitasse platea dictumst. Phasellus vestibulum sapien ac ipsum aliquet, tempus sodales turpis congue. Etiam lacus augue, feugiat a fermentum non, lobortis eu neque.
-            </div>
-            ​
-            <div class="form-group">
-              <button type="submit" disabled class="btn btn-primary" onClick="onSubmit()">Guardar</button>
-              <button type="reset" class="btn btn-primary">Reset</button>
-            </div>
-          </form>
-        </div>
+        </form>
       </div>
     </div>
-    <script async type="text/javascript" src="main.js" l></script>
-  </body>
+  </div>
+  <script async type="text/javascript" src="main.js" ></script>
+</body>
 <!-- <footer class="footer">
 <div class="row">
 <div class="col">
