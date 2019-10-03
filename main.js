@@ -1,6 +1,3 @@
-(function() {
-  'use strict';
-
 const formFieldNames = ['nombre', 'apellido', 'usuario', 'password'];
 
 const joinStrings = (separator, ...values) => (
@@ -95,5 +92,3 @@ const scrollFunction = (e) => {
 document
   .getElementById('terms-and-conditions')
   .addEventListener('scroll', scrollFunction);
-
-}());
