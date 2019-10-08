@@ -75,3 +75,12 @@ nav {
     justify-content: center;
     align-items: center;
   }
+
+  .terms-and-conditions {
+    height: 100px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+  }

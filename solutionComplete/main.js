@@ -204,3 +204,17 @@ function onChangeContraseña(inputValue) {
 
     deshabilitarBoton(false);
 }
+
+const scrollFunction = (e) => {
+  let termsDiv = e.target;
+  var saveButton = document.getElementById('button-submit');
+  if(termsDiv.scrollTop + termsDiv.offsetHeight >= termsDiv.scrollHeight) {
+    saveButton.disabled = false;
+  } else {
+    saveButton.disabled = true;
+  }
+};
+
+document
+  .getElementById('terms-and-conditions')
+  .addEventListener('scroll', scrollFunction);
