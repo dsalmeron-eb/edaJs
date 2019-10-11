@@ -95,7 +95,6 @@ const validateFormValues = (values) => {
     });
 
     if (!isValid) {
-        event.preventDefault();
         const errorMesg = joinStrings(',', fieldErrors);
 
         //console.log(`The field ${errorMesg} contain errors.`);
@@ -103,6 +102,7 @@ const validateFormValues = (values) => {
         return false;
     }
 
+    return true;
     //alert('El form se ha guardado con Exito!');
 };
 
@@ -148,15 +148,13 @@ function onChangeField(inputValue) {
     //add validate
     const elemento = document.getElementById(`${id}-group`);
 
-        if(elemento) {
-            const nodoHijo = elemento.getElementsByClassName('class-error');
+    if(elemento) {
+        const nodoHijo = elemento.getElementsByClassName('class-error');
 
-            if (nodoHijo.length) {
-                elemento.removeChild(nodoHijo[0]);
-            }
+        if (nodoHijo.length) {
+            elemento.removeChild(nodoHijo[0]);
         }
-
-
+    }
 
     if (!value || !value.match(/^[A-Z](.*[a-z])$/)) {
         let parrafo = document.createElement('p');
@@ -215,6 +213,7 @@ const scrollFunction = (e) => {
   }
 };
 
-document
-  .getElementById('terms-and-conditions')
-  .addEventListener('scroll', scrollFunction);
+
+module.exports = {
+  validateFormValues
+}

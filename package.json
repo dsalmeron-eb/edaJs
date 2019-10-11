@@ -1,0 +1,19 @@
+{
+  "name": "edajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsalmeron-eb/edaJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsalmeron-eb/edaJs/issues"
+  },
+  "homepage": "https://github.com/dsalmeron-eb/edaJs#readme"
+}
