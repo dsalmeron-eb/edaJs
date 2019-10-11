@@ -1,4 +1,13 @@
-let { listFiltering } = require('./utils');
+let {
+  expandedForm,
+  listFiltering
+} = require('./utils');
+
+describe('expandedForm', () => {
+  it('should return 10 + 2', () => {
+    expect(expandedForm(12)).toEqual('10 + 2');
+  })
+});
 
 describe('listFiltering', () => {
   it('should return an array with 2 elements', () => {
